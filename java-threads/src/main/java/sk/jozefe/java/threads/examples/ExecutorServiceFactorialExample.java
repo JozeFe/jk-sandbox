@@ -25,6 +25,10 @@ public class ExecutorServiceFactorialExample {
         return executorService.submit(new FactorialCallable(number));
     }
 
+    public void shutdown() {
+        executorService.shutdown();
+    }
+
     private class FactorialCallable implements Callable<Long> {
 
         private int number;

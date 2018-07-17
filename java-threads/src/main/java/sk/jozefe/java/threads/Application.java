@@ -49,6 +49,6 @@ public class Application {
                 LOG.error("InterruptedException {}", e);
             }
         }
-        LOG.info("Done");
+        factorialExcetuor.shutdown();
     }
 }
