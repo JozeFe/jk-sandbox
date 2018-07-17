@@ -1,12 +1,12 @@
 # Compiled class file
 *.com
-*.class
 *.dll
 *.exe
 *.o
 *.so
 
 *.log
+*.iml
 
 .idea
 out
@@ -33,7 +33,6 @@ ehthumbs.db
 Thumbs.db
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
