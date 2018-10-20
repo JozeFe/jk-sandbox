@@ -1,51 +1,13 @@
-# Compiled class file
-*.com
-*.dll
-*.exe
-*.o
-*.so
+# IDE and main stuff
+.idea
+target
+build
+dist
+lib
 
 *.log
 *.iml
 
-.idea
-out
-target
-dist
-build
-*.vpp~*
-*~
-.*.sw*
-.project
-.classpath
-.settings
-
-~*
-$~*
-.DS_Store
-.DS_Store?
-._*
-.~*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-
-# Package Files #
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-### React ###
-node_modules/
-build/
-
-# testing
-/coverage
-
-# package lock
-#package-lock.json
+# JavaScript
+node_modules
+yarn.lock
