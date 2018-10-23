@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 /**
- * @author Jozef Krcho (jozef.krcho@lundegaard.eu)
+ * @author Jozef Krcho (jozefkrchoml@gmail.com)
  */
 public class Application {
 

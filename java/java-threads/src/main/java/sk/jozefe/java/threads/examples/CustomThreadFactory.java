@@ -3,7 +3,7 @@ package sk.jozefe.java.threads.examples;
 import java.util.concurrent.ThreadFactory;
 
 /**
- * @author Jozef Krcho (jozef.krcho@lundegaard.eu)
+ * @author Jozef Krcho (jozefkrchoml@gmail.com)
  */
 public class CustomThreadFactory implements ThreadFactory {
 

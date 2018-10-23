@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * @author Jozef Krcho (jozef.krcho@lundegaard.eu)
+ * @author Jozef Krcho (jozefkrchoml@gmail.com)
  */
 public class ExecutorServiceFactorialExample {
 
