@@ -11,3 +11,11 @@ lib
 # JavaScript
 node_modules
 yarn.lock
+
+# Java
+.jar
+
+# Gradle
+.gradle
+gradle-app.setting
+.gradletasknamecache
