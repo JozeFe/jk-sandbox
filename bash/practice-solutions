@@ -1,0 +1,13 @@
+1.  a)  cd ~
+    b)  cd -
+
+2.  a)  ls -laR | grep xml
+    b)  ls -l $(find -iname *.xml)
+    c)  ls -l $(find -not -path *.idea* -iname *.xml)
+        ls -l $(find \! -path *.idea* -iname *.xml)
+
+3.  a)  mkdir -p tmp/foo
+    b)  mkdir -m 777 -p tmp/bar
+    c)  rm -rf tmp
+
+4.  ls -laR | grep .xml >> xmls.txt

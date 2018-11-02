@@ -1,0 +1,15 @@
+1. move to:
+    a) home
+    b) then move back where you were
+
+2. list all files and their sizes in this project ending with '*.xml':
+    a) with grep
+    b) without grep
+    c) exclude files in .idea folders
+
+3. recursively create directory:
+    a)  'tmp/foo'
+    b)  'tmp/bar' with all permissions
+    c)  remove tmp
+
+4. save 2.a to file xmls.txt
