@@ -94,6 +94,14 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 export DOCKER_HOST='tcp://localhost:2375'
 
+# bash command aliases
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+alias grepc='grep -C 1'
+
 # git alias
 alias ga='git add'
 alias gaa='git add .'
@@ -109,7 +117,7 @@ alias gbl='git branch -l'
 alias gc='git checkout'
 alias gpu='git pull'
 alias gcl='git clone'
-alias grh='git rebase -i HEAD~5'
+alias grh='git rebase -i HEAD~5'gca
 alias grh10='git rebase -i HEAD~10'
 alias grc='git rebase --continue'
 alias gra='git rebase --abort'
