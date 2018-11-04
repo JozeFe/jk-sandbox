@@ -4,9 +4,12 @@
 	"author": "Jozef Krcho <jozefkrchoml@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
-		"nodemon": "^1.18.4"
+		"nodemon": "^1.18.4",
+		"ramda": "^0.25.0",
+		"ramda-extension": "^0.6.1"
 	},
 	"scripts": {
-		"start:es6": "nodemon src/es6-features.js"
+		"start:es6": "nodemon src/es6-features.js",
+		"start:ramda": "nodemon src/ramda-examples.js"
 	}
 }
