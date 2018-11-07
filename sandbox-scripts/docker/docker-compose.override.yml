@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  example-service-override:
+    environment:
+      - "FOO=foo value"
+      - "BAR=bar value"
