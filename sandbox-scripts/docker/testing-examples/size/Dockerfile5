@@ -1,0 +1,10 @@
+FROM debian as source
+
+ADD https://github.com/docker/cli/archive/v18.09.0.tar.gz /test/cli.tar.gz
+RUN tar xfz /test/cli.tar.gz -C /opt
+
+FROM debian
+
+COPY --from=source /opt /opt
+
+CMD ["ls", "-la", "/"]

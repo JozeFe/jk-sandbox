@@ -1,0 +1,9 @@
+FROM debian
+
+COPY 1mb.txt /test/1mb_01.txt
+COPY 1mb.txt /test/1mb_02.txt
+COPY 1mb.txt /test/1mb_03.txt
+
+RUN rm -rf /test
+
+CMD ["ls", "-la", "/test"]
