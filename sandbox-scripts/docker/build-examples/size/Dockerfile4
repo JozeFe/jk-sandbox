@@ -2,9 +2,10 @@ FROM debian
 
 RUN apt-get update \
     && apt-get install -y wget \
+    && mkdir /test \
     && wget -q https://github.com/docker/cli/archive/v18.09.0.tar.gz -O /test/cli.tar.gz \
     && tar xfz /test/cli.tar.gz -C /opt \
-    && rm -f /test/cli.tar.gz \
+    && rm -rf /test \
     && apt-get purge -y --auto-remove wget \
     && rm -rf /var/lib/apt/lists/*
 

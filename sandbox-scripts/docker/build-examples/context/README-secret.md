@@ -1,0 +1,1 @@
+This is secret-readme for docker context example.

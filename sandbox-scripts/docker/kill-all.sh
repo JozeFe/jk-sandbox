@@ -2,9 +2,7 @@
 
 A="===========================================";
 function divider () {
-	echo ""
-	echo "$A $1 ${A:0:-${#1}}"
-	echo ""
+	echo -e "\n$A $1 ${A:0:-${#1}}\n"
 }
 
 divider 'Killing all'
