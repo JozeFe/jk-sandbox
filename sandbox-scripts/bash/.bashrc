@@ -91,6 +91,14 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 # PS1="\[\e[1;32m\]\u@\h\[\e[1;34m\] \w\[\e[0m\]\$(__git_ps1)\[\e[1;34m\] \$\[\e[0m\] "
 
+long(){
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
+}
+
+short(){
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
+}
+
 
 export DOCKER_HOST='tcp://localhost:2375'
 
@@ -151,6 +159,10 @@ alias dcdv='docker-compose down -v'
 
 dbash(){
   docker exec -it $1 bash
+}
+
+drbash(){
+  docker run --rm -it $1 bash
 }
 
 # private/work commands
