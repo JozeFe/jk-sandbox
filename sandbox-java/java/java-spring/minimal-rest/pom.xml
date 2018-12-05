@@ -10,18 +10,8 @@
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>java-threads</artifactId>
-    <name>JKS :: Java Threads (${project.packaging})</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>java-spring</artifactId>
+    <packaging>jar</packaging>
+    <name>JKS :: Java Spring - Minimal REST (${project.packaging})</name>
 
 </project>

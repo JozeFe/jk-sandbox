@@ -11,6 +11,7 @@
 
     <modules>
         <module>java-threads</module>
+        <module>java-spring</module>
     </modules>
 
     <properties>
