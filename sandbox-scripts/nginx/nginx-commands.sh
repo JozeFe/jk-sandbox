@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-# nginx docker bash testing start
-docker run --rm -it -p 80:80 nginx-static-example bash
-# install ps, curl, nano
-apt-get update && apt-get install -y procps curl nano
-
 ### NGINX
 # start
 nginx
