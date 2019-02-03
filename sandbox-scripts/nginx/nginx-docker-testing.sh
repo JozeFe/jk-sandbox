@@ -5,6 +5,7 @@ docker run --rm -it -p 80:80 nginx-static-example bash
 
 # preparation - volume copy
 docker run --rm -it -v /c/tmp/etc_nginx:/tmp -p 80:80 nginx-static-example cp -a /etc/nginx/. /tmp/
+docker run --rm -it -v /tmp/tmp/etc_nginx:/tmp -p 80:80 nginx-static-example cp -a /etc/nginx/. /tmp/
 
 # local config test with minimal-rest api
 docker network create test
