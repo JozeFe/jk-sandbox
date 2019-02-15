@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-docker rm -f $(docker ps -a -q)
-
+./stop.sh
 ./build.sh
 ./run.sh
 

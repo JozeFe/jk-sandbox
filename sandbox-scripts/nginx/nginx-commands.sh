@@ -23,6 +23,6 @@ nginx -t
 nginx -T
 
 # edge use case, check and reload new config
-echo ... updating config
+vim ... updating config
 nginx -t # -T
 nginx -s reload

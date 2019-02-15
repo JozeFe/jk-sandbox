@@ -1,0 +1,4 @@
+{
+  "match": "regex",
+  "location": "location/regex/json/file1.json"
+}

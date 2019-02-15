@@ -1,0 +1,4 @@
+{
+  "match": "direct",
+  "location": "location/direct/direct_file.json"
+}

@@ -1,0 +1,4 @@
+{
+  "match": "regex",
+  "location": "/usr/share/nginx/html/unreachable_file.json"
+}
