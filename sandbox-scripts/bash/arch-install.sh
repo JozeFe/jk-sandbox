@@ -8,9 +8,10 @@ timedatectl set-ntp true
 
 # disk
 lsblk
-fdisk -l
+fdisk -l # ef - EFI, 83 - linux, 82 - Linux swap
 
-mkfs.ext4 /dev/sdax # boot, root, home
+mkfs.fat -F32 # efi
+mkfs.ext4 /dev/sdax # root, home
 
 # swap
 mkswap /dev/sdax

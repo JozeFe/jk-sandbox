@@ -62,6 +62,12 @@ drbash(){ docker run --rm -it $1 bash; }
 
 ### ubuntu
 # night light temperature set up
+# ~5300 feels good, lower = warmer, higher = cooler
 light(){
   gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature $1
+}
+
+wr(){
+  sudo service network-manager restart
+  exit
 }
